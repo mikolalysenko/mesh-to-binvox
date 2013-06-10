@@ -1,0 +1,37 @@
+{
+  "name": "mesh-to-binvox",
+  "version": "0.0.0",
+  "description": "Converts a mesh to a binvox stream",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "rle-core": "~0.0.7",
+    "rle-rasterize": "~0.0.6",
+    "rle-save-binvox": "~0.0.1"
+  },
+  "devDependencies": {
+    "bunny": "~1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/mesh-to-binvox.git"
+  },
+  "keywords": [
+    "binvox",
+    "mesh",
+    "stream",
+    "voxelize"
+  ],
+  "author": "Mikola Lysenkp",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "82373e9b29a2573cee66294a94670c416e113a08",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/mesh-to-binvox/issues"
+  }
+}
