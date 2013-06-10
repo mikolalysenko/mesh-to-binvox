@@ -2,8 +2,7 @@ mesh-to-binvox
 ==============
 Converts a mesh into a [binvox](http://www.cs.princeton.edu/~min/binvox) stream.
 
-Example
-=======
+## Example
 
 ```javascript
 //Load Stanford bunny
@@ -13,7 +12,11 @@ var bunny = require("bunny")
 require("mesh-to-binvox")(bunny.cells, bunny.positions, 0.1).pipe(process.stdout)
 ```
 
-## `require("mesh-to-binvox")(cells, positions, resolution)`
+## Install
+
+    npm install mesh-to-binvox
+
+### `require("mesh-to-binvox")(cells, positions, resolution)`
 Converts a mesh to a binvox file and writes it to a stream.
 
 * `cells` are the triangles of the mesh
